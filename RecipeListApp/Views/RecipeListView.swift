@@ -12,6 +12,7 @@ struct RecipeListView: View {
     @EnvironmentObject var model: RecipeModel
     
     var body: some View {
+        
         NavigationView {
             List(model.recipes) { r in
                 NavigationLink(
