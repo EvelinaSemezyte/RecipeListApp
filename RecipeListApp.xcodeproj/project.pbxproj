@@ -18,6 +18,7 @@
 		8620AFE427A888090080957A /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620AFE327A888090080957A /* RecipeDetailView.swift */; };
 		868D98C927AAA698009FCD45 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D98C827AAA698009FCD45 /* Ingredient.swift */; };
 		868D98CB27AAACC1009FCD45 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D98CA27AAACC1009FCD45 /* RecipeFeaturedView.swift */; };
+		86989CD927AD6C5900C2D750 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86989CD827AD6C5900C2D750 /* Rational.swift */; };
 		86FDE37727A9B5F7004A2B26 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FDE37627A9B5F7004A2B26 /* RecipeTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		8620AFE327A888090080957A /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		868D98C827AAA698009FCD45 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		868D98CA27AAACC1009FCD45 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
+		86989CD827AD6C5900C2D750 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		86FDE37627A9B5F7004A2B26 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 				8620AFD527A820A80080957A /* Models */,
 				8620AFD727A820B10080957A /* Services */,
 				8620AFD627A820AD0080957A /* Data */,
+				86989CD727AD6C4400C2D750 /* Utilities */,
 				8620AFC927A820660080957A /* Assets.xcassets */,
 				8620AFCB27A820660080957A /* Preview Content */,
 			);
@@ -129,6 +132,14 @@
 				8620AFDE27A8293E0080957A /* DataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		86989CD727AD6C4400C2D750 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				86989CD827AD6C5900C2D750 /* Rational.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				868D98C927AAA698009FCD45 /* Ingredient.swift in Sources */,
 				868D98CB27AAACC1009FCD45 /* RecipeFeaturedView.swift in Sources */,
 				8620AFC627A820640080957A /* RecipeListApp.swift in Sources */,
+				86989CD927AD6C5900C2D750 /* Rational.swift in Sources */,
 				8620AFDF27A8293E0080957A /* DataService.swift in Sources */,
 				86FDE37727A9B5F7004A2B26 /* RecipeTabView.swift in Sources */,
 			);
